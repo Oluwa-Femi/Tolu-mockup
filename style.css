@@ -5,35 +5,30 @@
 }
 header{
     width: 100%;
-    flex: display;
+    display: flex;
     flex-direction: row;
-    align-items: baseline;
-    padding-bottom: 20px;
-    
 }
 
 header nav{
     display: flex;
-    align-items: flex-end;
     justify-content: space-between;
-    /* padding: 5px; */
+    padding: 20px;
     font-size: 14px;
 }
 header nav img {
     text-align: left;
 }
 header nav a {
+    font-family: arial,helvetica;
+    font: larger;
     display: flex;
     justify-content: space-between;
-    padding-top: 50px;
+    padding-top: 36px;
+    padding-left:80px;
     text-decoration: none;
 }
 a:hover {
-    height: auto;
     text-transform: uppercase;
-    background-color: #66ccff;
-    padding: 10px;
-    border-radius: 10px;
 }
 h1 {
     color: #66ccff;
@@ -66,7 +61,11 @@ a{
     display: flex;
     align-items: center;
 }
-
+button{
+    background-color: #66ccff;
+    font-size: large;
+    padding: 10px;
+}
 footer {
     clear: both;
     padding: 10px;
